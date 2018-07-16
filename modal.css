@@ -1,0 +1,106 @@
+body{
+	padding: 0;
+	margin: 0;
+	line-height: 1.6;
+}
+
+.btn{
+    margin: 3vw;
+	background-color: orange;
+	border:0;
+	font-size: 2em;
+	}
+
+.btn:hover{
+	   background-color: lightblue;
+	   cursor: pointer;
+
+}
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+	background-color: white;
+	width: 30%;
+	margin: 10%;
+	margin-left: 40%;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	animation-name: modaltop;
+	animation-duration: 0.4s;
+	animation-name: modaltop;
+	animation-duration: 0.4s;
+}
+
+ .close{
+	 float: right;
+	 margin-right: 2vw;
+}
+.close:hover{
+	cursor: pointer;
+	border: 10x solid red;
+	border-radius: 40%;
+	color: white;
+	text-decoration:none;
+	background-color: red;
+}
+.text{
+	margin-left: 4vw;
+}
+.body input{
+	display: block;
+	width: 40%;
+}
+h5{
+	margin-left: 5vw;
+	margin-bottom: 3px;
+}
+input{
+	margin-left: 5vw;
+	padding: 10px;
+	border-radius: 3px;
+	border-color: blue;
+
+}
+
+button{
+	
+	margin-left: 5vw;
+	margin-top: 4vh;
+	border:none;
+	background-color: lightblue;
+	font-size: 18px;
+	margin-bottom: 1vw;
+
+}
+button:hover{
+	cursor: pointer;
+	color: white;
+}
+
+@keyframes modaltop{
+	from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@media (max-width: 720px){
+	.modal-content{
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+		margin-left: 25%; 
+	}
+}
+

@@ -1,0 +1,61 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.nav_bar{
+
+	 
+	 width: 100%;
+	 position: fixed;
+}
+.toggle{
+	display: none;
+	flex-direction: row;
+	width: 100%;
+	background-color: blue;
+	color: white;
+	cursor: pointer
+}
+ul{ 
+	margin: 0;
+	
+	background-color: darkblue;
+}
+ .material-icons{
+	margin-top: 1vh;
+	color: white;
+	cursor: pointer
+}
+ul li{
+     
+    display: inline-flex;
+
+	list-style-type: none;
+}
+ul li a{
+	color: white;
+    padding: 10px;
+    text-decoration: none !important;
+    
+}
+
+li a:hover{
+	background-color: pink;
+}
+ 
+ @media (max-width: 720px){
+ 	.toggle{
+ 		display: flex;
+ 	}
+ 	 
+
+ 	 ul{
+
+ 	 	width: 100%;
+ 	 }
+   ul li{
+   	display: flex;
+   	
+   	justify-content: center;
+   }
+}

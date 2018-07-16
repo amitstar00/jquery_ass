@@ -1,0 +1,52 @@
+.collapse{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.change{
+	background-color: black;
+	width: 100vw;
+	height: 7vh;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+	color:white;
+	font-size: 20px;
+	box-shadow: 7px  5px  8px gray;
+	cursor: pointer;
+   
+}
+.change:hover {
+	background-color: orange ;
+}
+.card{
+	width: 50vw;
+	height: 30vh;
+	display: flex;
+	padding-top: 4vh;
+	flex-wrap: wrap;
+	border-radius: 2px solid blue;
+}
+#html{
+	width: 30vw;
+	padding-left: 10vw;
+}
+.change1:hover{
+
+         background-color: green;
+}
+.change2:hover{
+
+         background-color: #008CBA ;
+}
+
+#css{
+	  width: 30vw;
+	padding-left: 10vw;
+}
+#jquery{
+	width: 30vw;
+	padding-left: 10vw;
+}
